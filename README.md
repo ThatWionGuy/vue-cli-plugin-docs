@@ -1,6 +1,6 @@
 # vue-cli-plugin-docs
 
-> documentation generator plugin for vue-cli
+> documentation consolidator plugin for vue-cli
 
 ## Purpose
 
@@ -104,7 +104,8 @@ As stated above, if you set the `auto` configuration to `true` then the plugin w
 npm run document
 ```
 
-        or 
+or 
+
 ``` sh
 vue-cli-service document
 ```

@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-docs",
-  "version": "0.1.17",
+  "version": "0.1.30",
   "description": "vue-cli plugin to generate readme files based on .vue file docs tags.",
   "main": "index.js",
   "keywords": [
@@ -9,6 +9,13 @@
     "documentation"
   ],
   "author": "Johnathon Wion",
-  "license": "MIT"
-  
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThatWionGuy/vue-cli-plugin-docs.git"
+  },
+  "homepage": "https://github.com/ThatWionGuy/vue-cli-plugin-docs",
+  "dependencies": {
+    "@vue/cli-shared-utils": "^4.2.3"
+  }
 }
