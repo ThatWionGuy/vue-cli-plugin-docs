@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-docs",
-  "version": "0.1.30",
+  "version": "1.0.0",
   "description": "vue-cli plugin to generate readme files based on .vue file docs tags.",
   "main": "index.js",
   "keywords": [
