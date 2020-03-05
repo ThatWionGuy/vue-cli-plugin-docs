@@ -44,7 +44,9 @@ The vue-cli-plugin-docs plugin allows for the following configurations to be add
 ``` js
 module.exports = {
     pluginOptions: {
-        // Configurations go here...
+        docs: {
+            // Configurations go here...
+        }
     }
 }
 ```
@@ -76,7 +78,8 @@ module.exports = {
     }
 }
 ```
-<div style="background-color: #38225d; color: #e3e3e3; padding: 1rem; border-radius: 8px;">
+
+<div style="background-color: #38225d; color: #e3e3e3; padding: 1rem;">
     <div style="font-weight: bold">Note:</div>
     <p>This expects an absolute path. Use path.resolve and the __dirname to get to the root directory.</p>
 </div>
