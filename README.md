@@ -1,4 +1,3 @@
-{::options parse_block_html="true" /}
 # vue-cli-plugin-docs
 
 > documentation generator plugin for vue-cli
@@ -77,14 +76,10 @@ module.exports = {
     }
 }
 ```
-<div class="panel panel-gitlab-purple">
-***Note:*** This expects an absolute path. Use path.resolve and the __dirname to get to the root directory.
-{: .panel-heading}
+<div style="background-color: #38225d; color: #e3e3e3; padding: 1rem; border-radius: 8px;">
+    <div style="font-weight: bold">Note:</div>
+    <p>This expects an absolute path. Use path.resolve and the __dirname to get to the root directory.</p>
 </div>
-
-***Note:*** This expects an absolute path. Use path.resolve and the __dirname to get to the root directory.
-{: .alert .alert-gitlab-purple}
-
 
 ## Markdown Style Guide
 
